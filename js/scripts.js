@@ -41,3 +41,13 @@ var rev=function (string){
 }
 alert(rev(string))
 
+jQuery(document).ready(function() {
+jQuery("#lefth1").click(function() {
+  alert("Original sentence");
+ });
+
+jQuery("#righth1").click(function() {
+   alert(" <h1>Original sentence</h1>");
+});
+
+});
